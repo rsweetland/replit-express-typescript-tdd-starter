@@ -1,10 +1,10 @@
-import express from "express";
-// import { exampleLibFunction } from "./lib.js"; // note the ".js" extension must be included
+import express, { Request, Response } from "express";
+import { exampleLibFunction } from "./lib.js"; // note ".js" extension required here
 
 const app = express();
 const port = 3000;
 
-app.get("/", (req, res) => {
+app.get("/", (req: Request, res: Response) => {
   res.send("ok");
 });
 

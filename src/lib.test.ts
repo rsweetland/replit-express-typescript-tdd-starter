@@ -1,5 +1,7 @@
-// show an example of mocking a dependency for testing
+import { exampleLibFunction } from "./lib"; // note no file extension needed in test imports
 
-describe("libFunction()", () => {
-  it.todo("runs");
+describe("exampleLibFunction()", () => {
+  it("works", () => {
+    expect(exampleLibFunction()).toBe("ok");
+  });
 });

@@ -1,3 +1,3 @@
-export function exampleLibFunction() {
-  return "exampleLibFunction output";
+export function exampleLibFunction(): string {
+  return "ok";
 }
