@@ -5,7 +5,8 @@ const app = express();
 const port = 3000;
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("ok");
+  console.log(exampleLibFunction()); // ok
+  res.send("success");
 });
 
 app.listen(port, () => {
