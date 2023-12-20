@@ -2,7 +2,7 @@
 
 Simple, stable starting point for a thoroughly tested TypeScript project.
 
-TDD ([Test Drivn Development](https://en.wikipedia.org/wiki/Test-driven_development)) 
+TDD ([Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)) 
 is the process of developing software beginning with tests. 
 
 ## Start Express

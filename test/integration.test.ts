@@ -1,7 +1,5 @@
-// show an example of mocking a dependency for testing
-
-describe("Do work here", () => {
-  it("Step one", () => {
+describe("integration tests", () => {
+  it("all the things", () => {
     console.log("hello jest");
   })
 })
