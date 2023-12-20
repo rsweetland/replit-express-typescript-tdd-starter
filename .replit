@@ -1,0 +1,17 @@
+compile = ["tsc", "-b", "."]
+run = ["node", "./dist"]
+
+entrypoint = "src/index.ts"
+modules = ["nodejs-20:v12-20231130-57acee0"]
+hidden = [".config", "package-lock.json"]
+
+[gitHubImport]
+requiredFiles = [".replit", "replit.nix", ".config"]
+
+[nix]
+channel = "stable-23_05"
+
+[deployment]
+run = ["tsx", "index.ts"]
+deploymentTarget = "cloudrun"
+ignorePorts = false
